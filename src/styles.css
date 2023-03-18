@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,4 +9,5 @@
 
 .lato {
 	font-family: 'Lato', sans-serif;
+	font-weight: bold;
 }

@@ -1,12 +1,12 @@
-<nav class="flex flex-row justify-between py-3">
+<nav class="flex flex-row justify-between px-7 py-3 bg-green lato text-cream">
 	<div>
 		<a href="/">
-			<h2 class="text-3xl">Velvet Acres</h2>
+			<h2 class="text-2xl playfair">Velvet Acres</h2>
 		</a>
 	</div>
 	<div class="flex gap-10 text-xl">
-		<a href="/services">Our Services</a>
-		<a href="/horses">Our Horses</a>
-		<a href="/contact">Contact Us</a>
+		<a class="hover:text-tan" href="/services">Our Services</a>
+		<a class="hover:text-tan" href="/horses">Our Horses</a>
+		<a class="hover:text-tan" href="/contact">Contact Us</a>
 	</div>
 </nav>

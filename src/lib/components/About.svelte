@@ -1,8 +1,8 @@
 <script>
-	import PageHeading from '$lib/base/PageHeading.svelte';
+	import Heading from '$lib/base/Heading.svelte';
 </script>
 
-<PageHeading>About Us</PageHeading>
+<Heading>About Us</Heading>
 <p class="text-3xl lato">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 	labore et dolore magna aliqua. Sit amet dictum sit amet justo donec enim diam. Pulvinar mattis

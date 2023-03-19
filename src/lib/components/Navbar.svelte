@@ -5,7 +5,8 @@
 		</a>
 	</div>
 	<div class="flex gap-10 text-xl">
-		<a class="hover:text-tan" href="/services">Our Services</a>
+		<a class="hover:text-tan" href="/facility">Facilities</a>
+		<a class="hover:text-tan" href="/services">Services</a>
 		<a class="hover:text-tan" href="/horses">Our Horses</a>
 		<a class="hover:text-tan" href="/contact">Contact Us</a>
 	</div>

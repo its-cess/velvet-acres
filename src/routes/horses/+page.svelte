@@ -1,5 +1,5 @@
 <script>
-	import PageHeading from '$lib/base/PageHeading.svelte';
+	import Heading from '$lib/base/Heading.svelte';
 	import GridContainer from '$lib/base/GridContainer.svelte';
 	import BaseCard from '$lib/base/BaseCard.svelte';
 
@@ -39,11 +39,11 @@
 	];
 </script>
 
-<PageHeading>Our Horses</PageHeading>
+<Heading>Our Horses</Heading>
 <GridContainer>
 	{#each horses as horse (horse.id)}
 		<BaseCard>
-			<h2 class="text-2xl playfair">{horse.name}</h2>
+			<Heading secondary justify tertiary>{horse.name}</Heading>
 			<span class="text-lg">{horse.breed}</span>,
 			<span class="text-sm font-bold">{horse.age}</span>
 			<br />

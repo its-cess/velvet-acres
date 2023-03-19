@@ -2,4 +2,4 @@
 	import Heading from '$lib/base/Heading.svelte';
 </script>
 
-<Heading>Contact Us</Heading>
+<Heading>The Facilities</Heading>

@@ -6,6 +6,8 @@
 	import sanityClient from '../../sanityClient';
 	import imageUrlBuilder from '@sanity/image-url';
 
+	import { calculateAge } from '$lib/utils/ageHelpers';
+
 	export let data;
 	export let horses;
 	horses = data.horses;
@@ -29,9 +31,12 @@
 			<Heading tertiary>{horse.registeredName}</Heading>
 			<Heading secondary tertiary>"{horse.barnName}"</Heading>
 			<span class="text-lg">{horse.breed}</span>
-			<!-- add age after breed. need to calculate from bday. -->
 			<br />
-			<span>{horse.sex}</span>
+			<span>{horse.sex},</span>
+			<span class="ml-2">
+				<span class="text-xl text-dark-green font-playfair">{calculateAge(horse.birthday)}</span>
+				years old
+			</span>
 			<p class="pt-3">{horse.bio}</p>
 		</BaseCard>
 	{/each}

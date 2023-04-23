@@ -3,11 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.playfair {
-	font-family: 'Playfair Display', serif;
-}
+@layer base {
+	body {
+		@apply font-lato
+	}
 
-.lato {
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
+	svg {
+		@apply fill-current;
+	}
 }

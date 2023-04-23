@@ -1,11 +1,11 @@
 <script>
-	export let secondary;
-	export let justify;
-	export let tertiary;
+	export let secondary = undefined;
+	export let justify = undefined;
+	export let tertiary = undefined;
 </script>
 
 <h1
-	class="text-dark-green playfair {secondary ? 'text-2xl' : 'text-3xl'} {justify
+	class="text-dark-green font-playfair {secondary ? 'text-2xl' : 'text-3xl'} {justify
 		? 'text-left'
 		: 'text-center'} {tertiary ? '' : 'py-10'}"
 >

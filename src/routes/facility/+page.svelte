@@ -1,7 +1,8 @@
 <script>
-	import Heading from '$lib/base/Heading.svelte';
 	import { PortableText } from '@portabletext/svelte';
+	import Heading from '$lib/base/Heading.svelte';
 	import DefaultListItem from '$lib/components/DefaultListItem.svelte';
+	import Slideshow from './Slideshow.svelte';
 
 	export let data;
 	export let facilities;
@@ -32,3 +33,4 @@
 	</div>
 </div>
 <!-- large carousel of facility pictures -->
+<Slideshow />

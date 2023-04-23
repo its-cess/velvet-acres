@@ -1,16 +1,24 @@
 import sanityClient from '../../sanityClient';
 
 export async function load() {
-	const data = await sanityClient.fetch(`*[_type == 'service'] {
-    _id,
-    name,
-    description,
-    price
+	const data = await sanityClient.fetch(`*[_type =='service'] {
+			_id,
+			name,
+			description,
+			price
   }`);
 
-	if (data) {
+	const additionalData = await sanityClient.fetch(`*[_type == 'additionalService'] {
+		_id,
+		name,
+		description,
+		price
+}`)
+
+	if (data && additionalData) {
 		return {
-			services: data
+			services: data,
+			additionalServices: additionalData
 		};
 	}
 	return {

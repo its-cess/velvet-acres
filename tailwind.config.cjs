@@ -7,6 +7,9 @@ module.exports = {
 			playfair: ['Playfair Display', 'serif']
 		},
 		extend: {
+			backgroundImage: {
+				'contactUs': 'url("images/equestrian-center.jpg")'
+			},
 			colors: {
 				'dark-green': '#2C3639',
 				'green': '#3F4E4F',

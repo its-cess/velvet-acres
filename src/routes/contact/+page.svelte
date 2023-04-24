@@ -6,7 +6,7 @@
 	<title>Contact Us | Velvet Acres</title>
 </svelte:head>
 
-<main class="h-[300px] md:h-[400px] lg:h-[650px] bg-fixed bg-contactUs bg-contain bg-no-repeat">
+<main class="h-[800px] md:h-[400px] lg:h-[850px] bg-fixed bg-contactUs bg-cover bg-no-repeat">
 	<div
 		class="relative top-8 md:top-12 lg:top-32 w-fit mx-auto bg-white bg-opacity-[.60] p-4 md:p-8 lg:p-12 rounded-full"
 	>

@@ -13,6 +13,10 @@
 	additionalServices = data.additionalServices;
 </script>
 
+<svelte:head>
+	<title>Services | Velvet Acres</title>
+</svelte:head>
+
 {#if services}
 	<Heading>Services</Heading>
 	<div class="flex flex-col md:flex-row max-w-3xl mx-auto gap-10">

@@ -16,6 +16,6 @@
 		are committed to the well-being of every horse that is boarded with us.
 		<br />
 		<br />
-		Please call us at (877) 543-1234 to schedule a tour and check our availability.
+		Please call us at (877) 555-1234 to schedule a tour and check our availability.
 	</p>
 </div>

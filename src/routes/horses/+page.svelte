@@ -19,6 +19,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Our Horses | Velvet Acres</title>
+</svelte:head>
+
 <Heading>Our Horses</Heading>
 <GridContainer>
 	{#each horses as horse (horse._id)}

@@ -9,6 +9,10 @@
 	facilities = data.facility;
 </script>
 
+<svelte:head>
+	<title>Facilities | Velvet Acres</title>
+</svelte:head>
+
 <Heading>The Facilities</Heading>
 <div class="flex flex-col md:flex-row items-center md:m-4 gap-8 md:justify-center">
 	<div class="ml-6 m-y-0 p-5 md:p-3 text-xl md:text-2xl">

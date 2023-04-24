@@ -3,26 +3,22 @@
 		{
 			id: '1',
 			path: '/images/arena.svg',
-			description: 'Covered indoor riding arena',
-			caption: 'Indoor Arena'
+			description: 'Covered indoor riding arena'
 		},
 		{
 			id: '2',
 			path: '/images/barn.svg',
-			description: 'Barn aisleway with stalls on both sides',
-			caption: 'Barn Stalls'
+			description: 'Barn aisleway with stalls on both sides'
 		},
 		{
 			id: '3',
 			path: '/images/pasture.svg',
-			description: 'Green pasture with white four board fencing',
-			caption: 'Pastures'
+			description: 'Green pasture with white four board fencing'
 		},
 		{
 			id: '4',
 			path: '/images/tack.svg',
-			description: 'Wall with lots of hanging bridles',
-			caption: 'Tack Room'
+			description: 'Wall with lots of hanging bridles'
 		}
 	];
 

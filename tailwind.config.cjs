@@ -8,8 +8,8 @@ module.exports = {
 		},
 		extend: {
 			backgroundImage: {
-				'contactUs': 'url("images/equestrian-center.jpg")',
-				'velvetAcres': 'url("images/backdrop.jpg")'
+				'contactUs': 'url("/images/equestrian-center.jpg")',
+				'velvetAcres': 'url("/images/backdrop.jpg")'
 			},
 			colors: {
 				'dark-green': '#2C3639',
@@ -18,7 +18,7 @@ module.exports = {
 				'cream': '#DCD7C9'
 			},
 			listStyleImage: {
-				horseshoe: 'url("images/horseshoe.png")'
+				horseshoe: 'url("/images/horseshoe.png")'
 			},
 			zIndex: {
 				mobileNav: 91,

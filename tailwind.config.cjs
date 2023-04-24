@@ -8,7 +8,8 @@ module.exports = {
 		},
 		extend: {
 			backgroundImage: {
-				'contactUs': 'url("images/equestrian-center.jpg")'
+				'contactUs': 'url("images/equestrian-center.jpg")',
+				'velvetAcres': 'url("images/backdrop.jpg")'
 			},
 			colors: {
 				'dark-green': '#2C3639',

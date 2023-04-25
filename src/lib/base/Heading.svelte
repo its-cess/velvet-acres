@@ -7,7 +7,7 @@
 <h1
 	class="text-dark-green font-playfair {secondary ? 'text-2xl' : 'text-3xl'} {justify
 		? 'text-left'
-		: 'text-center'} {tertiary ? '' : 'py-10'}"
+		: 'text-center'} {tertiary ? '' : 'py-6 md:py-10'}"
 >
 	<slot />
 </h1>

@@ -31,7 +31,7 @@
 	};
 </script>
 
-<div class="flex min-h-[600px] items-center">
+<div class="flex min-h-[420px] mt-5 items-center">
 	<div class="arrow ml-2 lg:ml-20">
 		<button on:click={slideLeft}>&#10094</button>
 	</div>
@@ -40,7 +40,7 @@
 			<img
 				src={image.path}
 				alt={image.description}
-				class="absolute w-[800px] h-auto object-cover rounded-lg shadow-md"
+				class="absolute w-[600px] max-h-[500px] md:h-auto object-cover rounded-lg shadow-md"
 			/>
 		{/each}
 	</div>

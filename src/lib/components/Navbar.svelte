@@ -6,7 +6,7 @@
 
 <nav class="flex flex-row justify-between items-center px-7 py-3 bg-green text-cream font-playfair">
 	<div>
-		<a href="/">
+		<a href="/" on:click={() => (isMobileNavOpen = !isMobileNavOpen)}>
 			<h2 class="text-2xl playfair hover:text-dark-green hover:text-3xl">Velvet Acres</h2>
 		</a>
 	</div>
